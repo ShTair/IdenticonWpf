@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Viewbox>
+            <Path Width="10" Height="10" Fill="#123456" Data="M0 0 h1 v1 h-1 v-1 M1 0 h1 v1 h-1 v-1" />
+        </Viewbox>
     </Grid>
 </Window>

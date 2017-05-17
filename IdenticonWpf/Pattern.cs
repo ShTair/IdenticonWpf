@@ -21,5 +21,10 @@ namespace IdenticonWpf
         {
 
         }
+
+        public string GenPoint(int x, int y)
+        {
+            return $"M{x} {y} h1 v1 h-1 v-1";
+        }
     }
 }
